@@ -1,10 +1,10 @@
 # Same Words, Different Worlds
 ## Measuring Partisan Semantic Divergence in Congressional AI Discourse
 
-**Author:** [Your Name]  
-**Course:** PPOL 5205 - Data Science III  
+**Author:** Darren Deng  
+**Course:** PPOL 6801 - Text as Data 
 **Institution:** Georgetown University  
-**Date:** December 2024
+**Date:** December 2025
 
 ---
 
@@ -26,12 +26,10 @@ This project investigates whether Democrats and Republicans assign different *me
 same_words_different_worlds/
 │
 ├── README.md                          # This file
-├── proposal/
-│   └── project_proposal.pdf           # Original research proposal
 │
 ├── data/
 │   ├── raw/
-│   │   └── congress_tweets_full_2018_2024.csv    # Raw tweet data
+│   │   └── congress_tweets_full_2018_2024.csv    # Raw tweet data (too big, now replaced by dropbox download link)
 │   └── processed/
 │       ├── 01_ai_tweets_clean.csv                # Filtered AI tweets
 │       └── 02_tweets_with_embeddings.pkl         # Tweets with embeddings
@@ -49,7 +47,7 @@ same_words_different_worlds/
 │   └── 10_final_visualization.ipynb
 │
 ├── models/
-│   └── fine_tuned_roberta/            # Fine-tuned RoBERTa model (503 MB)
+│   └── fine_tuned_roberta/            # Fine-tuned RoBERTa model (503 MB)(too big, now replaced by dropbox download link)
 │
 ├── figures/
 │   ├── 01_volume_by_year.png
@@ -204,7 +202,7 @@ same_words_different_worlds/
 |------|-------------|------|
 | `congress_tweets_full_2018_2024.csv` | Full congressional tweet dataset | ~500 MB |
 
-**Note:** If the raw data exceeds GitHub's file size limits, it is hosted at [provide alternative link or contact instructor].
+**Note:** If the raw data exceeds GitHub's file size limits, it is hosted at https://www.dropbox.com/scl/fi/eqtx6ddyquwugymvqeslx/congress_tweets_full_2018_2024.csv?rlkey=afwanoeo7fhncpv1dov2dm0c9&st=4m4j8o0u&dl=0.
 
 ### Processed Data
 | File | Description | Size |
@@ -259,7 +257,7 @@ pip install pandas numpy matplotlib seaborn scikit-learn transformers torch tqdm
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/[your-username]/same_words_different_worlds.git
+   git clone https://github.com/Darren-Deng-GU/same_words_different_worlds.git
    cd same_words_different_worlds
    ```
 
@@ -299,7 +297,7 @@ pip install pandas numpy matplotlib seaborn scikit-learn transformers torch tqdm
 If you use this code or methodology, please cite:
 
 ```
-[Your Name]. (2024). Same Words, Different Worlds: Measuring Partisan Semantic 
+[Darren Deng]. (2025). Same Words, Different Worlds: Measuring Partisan Semantic 
 Divergence in Congressional AI Discourse. Georgetown University, PPOL 5205.
 ```
 
@@ -313,6 +311,6 @@ This project is submitted for academic purposes as part of PPOL 5205 at Georgeto
 
 ## Contact
 
-[Your Name]  
-[Your Email]  
+Darren Deng  
+sd1511@georgetown.edu
 Georgetown University
