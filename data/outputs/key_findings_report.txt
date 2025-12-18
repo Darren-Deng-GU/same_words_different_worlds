@@ -1,0 +1,97 @@
+
+================================================================================
+SAME WORDS, DIFFERENT WORLDS
+Measuring Partisan Semantic Divergence in Congressional AI Discourse
+================================================================================
+
+EXECUTIVE SUMMARY
+-----------------
+This study examines whether Democrats and Republicans assign different meanings 
+to the same words when discussing Artificial Intelligence. Using 3,201 AI-related 
+tweets from members of Congress (2018-2024), we find statistically significant 
+semantic divergence in contested concepts, with a large effect size.
+
+KEY FINDINGS
+------------
+
+1. MAIN RESULT: Semantic Polarization Exists
+   • Contested concepts show 1.78x higher semantic distance than control words
+   • Permutation test: p = 0.024 (statistically significant)
+   • Effect size: Cohen's d = 0.99 (large)
+   • A classifier can predict party from tweet embeddings with 72% accuracy
+
+2. MOST POLARIZED WORDS
+   • Transparency (distance: 0.0014)
+   • Rights (distance: 0.0013)
+   • Regulation (distance: 0.0013)
+   • Risk (distance: 0.0009)
+   • Safety (distance: 0.0008)
+
+3. QUALITATIVE EVIDENCE: How Meanings Differ
+   
+   "RIGHTS"
+   • Democrats: "civil rights" (31x), "human rights" (8x) → Collective protection
+   • Republicans: "individual rights", "amendment rights" → Constitutional liberty
+   
+   "REGULATION"  
+   • Democrats: "comprehensive", "fair", "oversight" → Positive framing
+   • Republicans: "burdensome", "excessive" → Negative framing
+   
+   "SAFETY"
+   • Democrats: "standards", "ensure safety" → Protective standards
+   • Republicans: "alignment", "product safety" → Technical/market focus
+
+4. TEMPORAL TREND: ChatGPT Effect
+   • 8 out of 11 words (73%) became LESS polarized after ChatGPT's release
+   • Largest convergence: "innovation" (-0.0012 change)
+   • Interpretation: ChatGPT may have created a shared reference point
+
+5. CHAMBER COMPARISON
+   • Senate polarization: 0.000427
+   • House polarization: 0.000099
+   • Senate is 4.3x MORE polarized than House
+   • Pattern holds across all analyzed words
+
+6. SPEAKER ANALYSIS
+   • Most Democratic framing: Casey, Jayapal, Pressley, Tlaib (Progressive wing)
+   • Most Republican framing: Banks, Cornyn, Hawley
+   • Note: Democratic extremes stronger than Republican extremes
+
+METHODOLOGY
+-----------
+- Data: 3,201 AI-related tweets from Congress members (2018-2024)
+- Model: RoBERTa fine-tuned on congressional AI discourse (MLM task)
+- Embeddings: 768-dimensional vectors per tweet
+- Distance metric: Cosine distance between party centroids
+- Validation: Bootstrap CIs, permutation tests, multiple distance metrics
+
+IMPLICATIONS
+------------
+1. Shared vocabulary does not imply shared meaning
+2. Policy negotiations may face "talking past each other" dynamics
+3. AI governance frameworks require explicit definition of contested terms
+4. Senate shows greater semantic division than House
+
+FIGURES FOR REPORT
+------------------
+- Figure 1: AI Discourse Volume (01_volume_by_year.png)
+- Figure 2: Log-Odds Topic Differences (02_log_odds_words.png)  
+- Figure 3: Semantic Space PCA/UMAP (03_semantic_space.png)
+- Figure 4: Semantic Polarization by Word (07_semantic_distance_with_ci.png)
+- Figure 5: Collocation Analysis - Rights (06_collocation_rights.png)
+- Figure 6: SemAxis Distributions (10_semaxis_grid.png)
+- Figure 7: Pre vs Post-ChatGPT (09_pre_post_chatgpt.png)
+- Figure 8: Chamber Comparison (12_chamber_comparison.png)
+
+DATA FILES
+----------
+- final_summary_statistics.csv - All key statistics
+- semantic_distances_validated.csv - Word-level distances with CIs
+- temporal_analysis.csv - Pre/post ChatGPT comparison
+- example_tweets.csv - Concrete examples for qualitative analysis
+- speaker_polarization.csv - Individual member scores
+
+================================================================================
+Generated: December 2024
+Project: Same Words, Different Worlds
+================================================================================

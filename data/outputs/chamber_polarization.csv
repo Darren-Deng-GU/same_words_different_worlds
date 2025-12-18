@@ -1,0 +1,3 @@
+group,d_count,r_count,total,cosine_distance
+House,1319,755,2074,9.918213e-05
+Senate,703,424,1127,0.0004272461

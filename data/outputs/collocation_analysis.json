@@ -1,0 +1,87 @@
+[
+  {
+    "word": "rights",
+    "d_collocations": [
+      "civil rights",
+      "human rights",
+      "ai rights",
+      "rights act",
+      "rights liberties"
+    ],
+    "r_collocations": [
+      "human rights",
+      "individual rights",
+      "amendment rights",
+      "rights abuses",
+      "rights creators"
+    ]
+  },
+  {
+    "word": "safety",
+    "d_collocations": [
+      "ai safety",
+      "roadway safety",
+      "safety security",
+      "safety standards",
+      "ensure safety"
+    ],
+    "r_collocations": [
+      "ai safety",
+      "intelligence safety",
+      "product safety",
+      "safety act",
+      "safety alignment"
+    ]
+  },
+  {
+    "word": "regulation",
+    "d_collocations": [
+      "ai regulation",
+      "oversight regulation",
+      "regulation protect",
+      "balance regulation",
+      "comprehensive regulation"
+    ],
+    "r_collocations": [
+      "ai regulation",
+      "effective regulation",
+      "airegulation aisafety",
+      "burdensome regulation",
+      "click airegulation"
+    ]
+  },
+  {
+    "word": "risk",
+    "d_collocations": [
+      "ai risk",
+      "risk management",
+      "mitigating risk",
+      "risk ai",
+      "security risk"
+    ],
+    "r_collocations": [
+      "risk management",
+      "security risk",
+      "ai risk",
+      "industries risk",
+      "information risk"
+    ]
+  },
+  {
+    "word": "transparency",
+    "d_collocations": [
+      "transparency accountability",
+      "transparency ai",
+      "accountability transparency",
+      "deserve transparency",
+      "increase transparency"
+    ],
+    "r_collocations": [
+      "greater transparency",
+      "transparency accountability",
+      "deserve transparency",
+      "transparency ai",
+      "transparency needed"
+    ]
+  }
+]

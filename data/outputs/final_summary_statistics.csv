@@ -1,0 +1,23 @@
+Category,Metric,Value,Notes
+Dataset,Total AI Tweets,"3,201",After filtering
+Dataset,Democrat Tweets,"2,022",63.2%
+Dataset,Republican Tweets,"1,179",36.8%
+Dataset,Date Range,2018-2024,6 years
+Classifier,Test Accuracy,72.1%,vs 50% baseline
+Classifier,5-Fold CV Accuracy,70.2% ± 2.1%,Robust
+Main Result,Contested Words Mean Distance,0.000724,n=11 words
+Main Result,Control Words Mean Distance,0.000408,n=10 words
+Main Result,Ratio (Contested/Control),1.78x,Higher = more polarized
+Main Result,Permutation Test p-value,0.024,Significant (p<0.05)
+Main Result,Cohen's d Effect Size,0.99,Large effect
+Top Polarized,#1: transparency,0.001411,Semantic distance
+Top Polarized,#2: rights,0.001324,Semantic distance
+Top Polarized,#3: regulation,0.001262,Semantic distance
+Top Polarized,#4: risk,0.000906,Semantic distance
+Top Polarized,#5: safety,0.000808,Semantic distance
+Temporal,Pre-ChatGPT Mean Distance,0.000823,2019-2022
+Temporal,Post-ChatGPT Mean Distance,0.000725,2023-2024
+Temporal,Words Less Polarized Post-GPT,8/11,73%
+Chamber,House Polarization,0.000099,
+Chamber,Senate Polarization,0.000427,
+Chamber,Senate/House Ratio,4.3x,Senate more polarized
